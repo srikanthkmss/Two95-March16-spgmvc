@@ -10,7 +10,7 @@ public class Employee {
 	@RequestMapping("/employee")
 	public String sendEmployee(Model model){
 		model.addAttribute("msg", "Employee Details");
-		model.addAttribute("message","Hai");
+		//model.addAttribute("message","Hai");
 		return "enquiry";
 	}
 }
